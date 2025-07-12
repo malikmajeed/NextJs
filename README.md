@@ -14,4 +14,5 @@ Routing is done automaticaly in next js
 
 
 ## Navigations links
-you can use ancor tag but when its clicked it'll load the entire content which we don't want for efficiency purposes
+- you can use anchor tag ( <a> ) but when its clicked it'll load the entire content which we don't want for efficiency purposes
+- Now for this purpose we use <Link> tag
