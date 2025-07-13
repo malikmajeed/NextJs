@@ -1,11 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
+import ProductCard from "./components/page";
+
 export default function Home() {
   return (
     <main>
       Home Page
       <Link href="users">Users Page</Link>
      <Link href="anotherPage">Another Example</Link>
+     <ProductCard />
+
     </main>
   );
 }
