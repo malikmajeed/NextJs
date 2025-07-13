@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import ProductCard from "./components/page";
+import ProductCard from "./components/ProductCard";
+
+
 
 export default function Home() {
   return (
@@ -9,6 +11,8 @@ export default function Home() {
       <Link href="users">Users Page</Link>
      <Link href="anotherPage">Another Example</Link>
      <ProductCard />
+     <Users />
+
 
     </main>
   );
